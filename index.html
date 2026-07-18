@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Comunicados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="painel" aria-labelledby="titulo-comunicados">
+    <h2 id="titulo-comunicados">📢 Comunicados internos</h2>
+
+    <p>
+      Hoje temos <span id="quantidade">3</span>
+      comunicados importantes.
+    </p>
+
+    <button
+      id="botaoComunicados"
+      type="button"
+      aria-expanded="false"
+      aria-controls="listaComunicados"
+    >
+      Mostrar comunicados
+    </button>
+
+    <ul id="listaComunicados" class="oculto">
+      <li>Atualização do SharePoint</li>
+      <li>Pesquisa de clima organizacional</li>
+      <li>Evento de integração</li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
