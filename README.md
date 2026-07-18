@@ -15,7 +15,9 @@ Painel simples que simula uma publicação de comunicados internos, pensado para
 ## Estrutura dos arquivos
 
 ​├── index.html      # estrutura e conteúdo
+
 ├── style.css       # aparência
+
 └── script.js       # comportamento (clique, exibir/ocultar)
 
 ## Como visualizar
