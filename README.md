@@ -13,9 +13,12 @@ Painel simples que simula uma publicação de comunicados internos, pensado para
 - **JavaScript (vanilla)** — comportamento interativo
 
 ## Estrutura dos arquivos
+
+​```
 ├── index.html     # estrutura e conteúdo
-├── style.css       # aparência
-└── script.js       # comportamento (clique, exibir/ocultar)
+├── style.css      # aparência
+└── script.js      # comportamento (clique, exibir/ocultar)
+​```
 ## Como visualizar
 
 🔗 [Ver a página em funcionamento](https://larilife.github.io/case-tecnico-bupj/)
